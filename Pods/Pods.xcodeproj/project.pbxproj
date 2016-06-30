@@ -1,0 +1,1129 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0287F0488B3F62085117FC10AD33837B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */; };
+		029ABA9937AEAD5E3433B69BB8CA864C /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA42D17DE877E921819DE0080279E3B /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17088252AF02454E25C72936FFF0EC76 /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C71E9308501C41D40B79E3D11C6BCE /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F1F3D935BEC68CF172971C8AB0BCE7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */; };
+		1F9352E50246B4183CDAA0184C8C946F /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C036DF083154A05438FEADB33E5451 /* SWCellScrollView.m */; };
+		2236143B35EDD9EFB5EF1E053BF55B11 /* Pods-FlashyTableviews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D3779CC745519C5A348E2304500A79 /* Pods-FlashyTableviews-dummy.m */; };
+		43BBC6D670E34431C463DD8AB295957B /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5304DC7C3D68D6EADDDE84399B2AAF7A /* SWTableViewCell-dummy.m */; };
+		443CCE401CCB360E15825DD795AE1167 /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = A88FDD9E58FF1E2451F451027E1CCEEE /* FAKFoundationIcons.m */; };
+		45413FB45610CE535B1229F315652776 /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = A66D27E0CA291C6A8BCFA792013ADEB7 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F4D28C586CF21CFB8AB2F977EB6319 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8A171D6BC3981A6D54020E24D0C5E7 /* NSMutableArray+SWUtilityButtons.m */; };
+		580F3A708B2DBD20C3BA0A3DB8900DE8 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7A8977EF3ECB08A3DA8172811FEC41 /* FAKZocial.m */; };
+		5844ACFF80AB4A23C599F66D5700A640 /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1367F13F67F8FAB030537CF19F1B52 /* SWTableViewCell.m */; };
+		5FB956B31DF117839DA0E00F87C0FF4E /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = D23305DA4C25F85CC41824BA315ECFBF /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E386A25A718CB600963E5A9E177EED /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2870CCF0C53B7D4FCB0EAD663E550B5F /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A26F6ADA2E47D4F2D5256EEFDC5C7D /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68449B06B791A102C37C5CE205C1D8F9 /* SWUtilityButtonView.m */; };
+		6970139DF66AD5EC7BAB7E72F03C3659 /* UIScrollView+APParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 46C315BD3193C7FC60F7EC44B7ECED1D /* UIScrollView+APParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		768F7F1D65DACA52BB55EAA38A13FD98 /* Pods-FlashyTableviewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C310CA4484E5A2632BB827760BD95CC /* Pods-FlashyTableviewsUITests-dummy.m */; };
+		7785FD5615566AE96CF1873255565808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */; };
+		7D8C551987C91507D4AEB488A1FE60B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6B226BCC287AD2905D591A5951BFC9 /* UIKit.framework */; };
+		8480858A7BA9ECA2EE7A5107D34F7183 /* APParallaxHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3524E11D4C29863B5BC283DAADE33207 /* APParallaxHeader-dummy.m */; };
+		87EAD6E2EE5C9F0B8FD227FD63E7A430 /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 3262FF82164E4FA7140894B9D1232725 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A6287B963D51F439C0EBE2D50F9391E /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 33B93418DB333E81D591B5D16C0B3E00 /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F51FA1F8A53D43544502BA08AE0F4E6 /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = EE11A8682FD399839F0673116BEB48A3 /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0ED24856F5B46FE17D2496F6A833F1A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF9550434131391A4BB0DD0365BD207 /* QuartzCore.framework */; };
+		A276EBAA2DFD484C266FCA5C63C5C39E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */; };
+		ADD96F95DDB9425FD3E4CFFE09246710 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */; };
+		B9F2AC5EB57DA548FDCD069305B76176 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEC88C6EF2924E7EE6531D7F53E4D59 /* CoreText.framework */; };
+		BD31EC9C61658051E6245972A78B0DA4 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E9F3218596F77435F60C740562A201 /* SWUtilityButtonTapGestureRecognizer.m */; };
+		CDCC5F8C49D18065CE3610E7E8884FD5 /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC604ACF5BF23D43DB11C4F788FB61C /* FontAwesomeKit-dummy.m */; };
+		D15550CF5996F31B47EA5A1E33F007D9 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = EFADF79CB83EAA74E59DF9E62497F696 /* FAKFontAwesome.m */; };
+		DDF86800B4A86E6855D38411A6C6CA3B /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D3D119B4883013C55C9EE4B2C404CB /* SWLongPressGestureRecognizer.m */; };
+		E047770278649D68737CF43B7D5B9223 /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = D63DEBAA2AAF3F0A87F0FDBDA334345C /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0E29147B7D8EC40D1A4F94C2C086B68 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B140AA7EFB7133603D242C72E7B9B0 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9A6CAD308EC7F78F474E74679454206 /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C9470EDB36C41B186FCDF8DBF43B6E65 /* UIScrollView+APParallaxHeader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EE9E96AFD760B8D316275B05058C53D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */; };
+		F3CAAA253E2293EE587412503D8934CA /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 65442A32BD4A821ACB4048FC72260E09 /* FAKIcon.m */; };
+		F4FA150B34A76E334EA6E07F1C22AAD6 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4268C1463BF726053648794F987D753A /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F89880759BAB2E38B268F456CECDA73B /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B6E824C4A24C3D56D7FE5D3A2E15EE /* FAKIonIcons.m */; };
+		F9FF2442E70FFD38BE49F67C3CBA4E45 /* Pods-FlashyTableviewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A803E9108FCFC966CD75ADEBC609EAD /* Pods-FlashyTableviewsTests-dummy.m */; };
+		FBF89427609542D56EC6215DD09F9F64 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFD7FC97348BB4BE4B0699D4A51CF69 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13D57945B6B17F6883603F97939695B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DF21164C6E1DC7DEE4CA35AD0FD7B25;
+			remoteInfo = APParallaxHeader;
+		};
+		4922A24C4806EFB0915631A4D804013B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F1B3A3281633797F27632DF12DBFC6;
+			remoteInfo = FontAwesomeKit;
+		};
+		D89D6A271B46388BB1567696A723C393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4383F1EDB19327B7941221D6031D1D01;
+			remoteInfo = SWTableViewCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C036DF083154A05438FEADB33E5451 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		14854CE4E4CCE489CEC0B9AC50FDAA0B /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		1BC47657A2B8FA44A861B44DEE926901 /* Pods-FlashyTableviewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlashyTableviewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20A55D7FDA4E214C9EC5DF67A95F742D /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		21C36E98615E665C6F4510B10CA6ED11 /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
+		2870CCF0C53B7D4FCB0EAD663E550B5F /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		2989642A90E9BB71EFED549C87B4EF6A /* Pods-FlashyTableviews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlashyTableviews-frameworks.sh"; sourceTree = "<group>"; };
+		2AFD7FC97348BB4BE4B0699D4A51CF69 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		3262FF82164E4FA7140894B9D1232725 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		33B93418DB333E81D591B5D16C0B3E00 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		3524E11D4C29863B5BC283DAADE33207 /* APParallaxHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APParallaxHeader-dummy.m"; sourceTree = "<group>"; };
+		3C310CA4484E5A2632BB827760BD95CC /* Pods-FlashyTableviewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlashyTableviewsUITests-dummy.m"; sourceTree = "<group>"; };
+		4000B9F9BB3C10BAF3F84FB8495BFAC9 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		4268C1463BF726053648794F987D753A /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		42E8E6C17DA681E121720701935D289C /* libPods-FlashyTableviews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlashyTableviews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EBA2EE356A8859592F713317BFC978 /* APParallaxHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APParallaxHeader.xcconfig; sourceTree = "<group>"; };
+		46C315BD3193C7FC60F7EC44B7ECED1D /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+APParallaxHeader.h"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		4BA42D17DE877E921819DE0080279E3B /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		4C7A8977EF3ECB08A3DA8172811FEC41 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		5304DC7C3D68D6EADDDE84399B2AAF7A /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		5354A6B5780CFA0F8028DCCCEF7A00B7 /* Pods-FlashyTableviewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashyTableviewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54B140AA7EFB7133603D242C72E7B9B0 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		56187F4B3A4A8B5E6D9529F3C189AC06 /* Pods-FlashyTableviews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashyTableviews.release.xcconfig"; sourceTree = "<group>"; };
+		63918B1DA15AD3364B83F3736875DD3E /* Pods-FlashyTableviewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlashyTableviewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64C71E9308501C41D40B79E3D11C6BCE /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
+		65442A32BD4A821ACB4048FC72260E09 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		68449B06B791A102C37C5CE205C1D8F9 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		6BF9550434131391A4BB0DD0365BD207 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		738CE090496FE87519346D87D700F8CF /* Pods-FlashyTableviewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashyTableviewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A803E9108FCFC966CD75ADEBC609EAD /* Pods-FlashyTableviewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlashyTableviewsTests-dummy.m"; sourceTree = "<group>"; };
+		7B849E4C81E886C1D66D93F4BABA3222 /* libPods-FlashyTableviewsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlashyTableviewsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8027A45E5AD580DED39B29ABD53E74AD /* libFontAwesomeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFontAwesomeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B6E824C4A24C3D56D7FE5D3A2E15EE /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		8C55D24DC0F92A8A111C70EC294BA7F6 /* Pods-FlashyTableviews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashyTableviews.debug.xcconfig"; sourceTree = "<group>"; };
+		90E9F3218596F77435F60C740562A201 /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		92D3D119B4883013C55C9EE4B2C404CB /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9841930243C8F93960F64B5FD4F73DA1 /* Pods-FlashyTableviewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashyTableviewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		994CCCA2F3ECE8943DA2F7741518994A /* libAPParallaxHeader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPParallaxHeader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6B226BCC287AD2905D591A5951BFC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A1F7484782120D560C3D2B2BE21F3B08 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		A2097FEEE1F2B0B672DCB6570BE1B0E5 /* Pods-FlashyTableviewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashyTableviewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4BC1588821133DE6C64FF9917784BFF /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		A66D27E0CA291C6A8BCFA792013ADEB7 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		A88FDD9E58FF1E2451F451027E1CCEEE /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		A8B87E0020CDD1009191BE1C3536BBB4 /* Pods-FlashyTableviewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashyTableviewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2332DAA20F568AEA65E637215459892 /* Pods-FlashyTableviewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlashyTableviewsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B6CDB1A7B4AC0AEEC263D6DEA4A5812F /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		C8C0AA5907DE2A7EE2C6453F3BA1C34E /* Pods-FlashyTableviews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlashyTableviews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9470EDB36C41B186FCDF8DBF43B6E65 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+APParallaxHeader.m"; path = "APParallaxHeader/UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
+		CCBD5DBA5D31C0CEC3BFF45897ABC358 /* APParallaxHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APParallaxHeader-prefix.pch"; sourceTree = "<group>"; };
+		CD1367F13F67F8FAB030537CF19F1B52 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		D0D3779CC745519C5A348E2304500A79 /* Pods-FlashyTableviews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlashyTableviews-dummy.m"; sourceTree = "<group>"; };
+		D23305DA4C25F85CC41824BA315ECFBF /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		D63DEBAA2AAF3F0A87F0FDBDA334345C /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		D9F482CDF0D14F8D1FB15DDA2DDE9C07 /* Pods-FlashyTableviews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlashyTableviews-resources.sh"; sourceTree = "<group>"; };
+		DAC604ACF5BF23D43DB11C4F788FB61C /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		DB87011A2DDEA43526DDE0357A51FDFA /* Pods-FlashyTableviewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlashyTableviewsTests-resources.sh"; sourceTree = "<group>"; };
+		DDEC88C6EF2924E7EE6531D7F53E4D59 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		E13A47FA3E188DE02292B604F404C12A /* Pods-FlashyTableviews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlashyTableviews-acknowledgements.plist"; sourceTree = "<group>"; };
+		E26742FA7B14916C7D83E01280199079 /* Pods-FlashyTableviewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlashyTableviewsUITests-resources.sh"; sourceTree = "<group>"; };
+		E26DB53443292692B59EFD5D924AA339 /* Pods-FlashyTableviewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlashyTableviewsTests-frameworks.sh"; sourceTree = "<group>"; };
+		E37F6BDCC0CC66E4FF45C500FA764431 /* Pods-FlashyTableviewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlashyTableviewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6115629B9DAC5486946C8C7ED41D751 /* libSWTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSWTableViewCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE11A8682FD399839F0673116BEB48A3 /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		EE3C562103EB18EE671E2D2C5105D126 /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		EFADF79CB83EAA74E59DF9E62497F696 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		FA8A171D6BC3981A6D54020E24D0C5E7 /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		FF63B77B99FB64750EB3EB235C25A9A2 /* libPods-FlashyTableviewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlashyTableviewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		023E4427AFB9185D1A3A583C410B67B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD96F95DDB9425FD3E4CFFE09246710 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D1E3CE502E2AC1DC2D9171591E42F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0287F0488B3F62085117FC10AD33837B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8448DF6C6076D74248D29AA2AC4C51C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9F2AC5EB57DA548FDCD069305B76176 /* CoreText.framework in Frameworks */,
+				1F1F3D935BEC68CF172971C8AB0BCE7E /* Foundation.framework in Frameworks */,
+				7D8C551987C91507D4AEB488A1FE60B7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873B70F19571D293E1E72B94A7199920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7785FD5615566AE96CF1873255565808 /* Foundation.framework in Frameworks */,
+				A0ED24856F5B46FE17D2496F6A833F1A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C303625ABBA715CE45D05691A033926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9E96AFD760B8D316275B05058C53D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F31FA00FD165138C41143F9EE587EBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A276EBAA2DFD484C266FCA5C63C5C39E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D39590EE1FBAB339D1F18AE6B51DA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				994CCCA2F3ECE8943DA2F7741518994A /* libAPParallaxHeader.a */,
+				8027A45E5AD580DED39B29ABD53E74AD /* libFontAwesomeKit.a */,
+				42E8E6C17DA681E121720701935D289C /* libPods-FlashyTableviews.a */,
+				FF63B77B99FB64750EB3EB235C25A9A2 /* libPods-FlashyTableviewsTests.a */,
+				7B849E4C81E886C1D66D93F4BABA3222 /* libPods-FlashyTableviewsUITests.a */,
+				E6115629B9DAC5486946C8C7ED41D751 /* libSWTableViewCell.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9880118C168553BFC1AEC05049869368 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17DB51AE3FA54EF3FBE5B0676A60D6DC /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				54B140AA7EFB7133603D242C72E7B9B0 /* FAKFoundationIcons.h */,
+				A88FDD9E58FF1E2451F451027E1CCEEE /* FAKFoundationIcons.m */,
+				4A6E31CF6E70B67D74B3E303977AC115 /* Resources */,
+			);
+			name = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		315C1A09D98BC33CA1BD0AB3B237EF5A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80BE98B87279468FB1E3C2C3588A05E3 /* Pods-FlashyTableviews */,
+				BD4063D0A0699D91FE6AC1DF1C62B191 /* Pods-FlashyTableviewsTests */,
+				3FC7F3C8F81B9EF006AD3351F7884BEC /* Pods-FlashyTableviewsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3FC7F3C8F81B9EF006AD3351F7884BEC /* Pods-FlashyTableviewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63918B1DA15AD3364B83F3736875DD3E /* Pods-FlashyTableviewsUITests-acknowledgements.markdown */,
+				A8B87E0020CDD1009191BE1C3536BBB4 /* Pods-FlashyTableviewsUITests-acknowledgements.plist */,
+				3C310CA4484E5A2632BB827760BD95CC /* Pods-FlashyTableviewsUITests-dummy.m */,
+				B2332DAA20F568AEA65E637215459892 /* Pods-FlashyTableviewsUITests-frameworks.sh */,
+				E26742FA7B14916C7D83E01280199079 /* Pods-FlashyTableviewsUITests-resources.sh */,
+				E37F6BDCC0CC66E4FF45C500FA764431 /* Pods-FlashyTableviewsUITests.debug.xcconfig */,
+				738CE090496FE87519346D87D700F8CF /* Pods-FlashyTableviewsUITests.release.xcconfig */,
+			);
+			name = "Pods-FlashyTableviewsUITests";
+			path = "Target Support Files/Pods-FlashyTableviewsUITests";
+			sourceTree = "<group>";
+		};
+		4A6E31CF6E70B67D74B3E303977AC115 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4000B9F9BB3C10BAF3F84FB8495BFAC9 /* foundation-icons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5CADB26C743A917DC0098AF862CA3377 /* APParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				46C315BD3193C7FC60F7EC44B7ECED1D /* UIScrollView+APParallaxHeader.h */,
+				C9470EDB36C41B186FCDF8DBF43B6E65 /* UIScrollView+APParallaxHeader.m */,
+				806F647F85C5AD8797F915EF613C188A /* Support Files */,
+			);
+			path = APParallaxHeader;
+			sourceTree = "<group>";
+		};
+		6A2366D9628424BDE79FCA45623B2348 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21C36E98615E665C6F4510B10CA6ED11 /* SWTableViewCell.xcconfig */,
+				5304DC7C3D68D6EADDDE84399B2AAF7A /* SWTableViewCell-dummy.m */,
+				EE3C562103EB18EE671E2D2C5105D126 /* SWTableViewCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWTableViewCell";
+			sourceTree = "<group>";
+		};
+		7C5F8B6446BBE0FD8F6505C15A31685A /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				D23305DA4C25F85CC41824BA315ECFBF /* FAKFontAwesome.h */,
+				EFADF79CB83EAA74E59DF9E62497F696 /* FAKFontAwesome.m */,
+				CF6C44B449EDBC8D425DC4763EC05161 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				F7D715D47391F0CC62771E2EDF751A44 /* Pods */,
+				0D39590EE1FBAB339D1F18AE6B51DA92 /* Products */,
+				315C1A09D98BC33CA1BD0AB3B237EF5A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F062D3885E7937A2E1A21C7FE668D14 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2AFD7FC97348BB4BE4B0699D4A51CF69 /* FAKIcon.h */,
+				65442A32BD4A821ACB4048FC72260E09 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		806F647F85C5AD8797F915EF613C188A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43EBA2EE356A8859592F713317BFC978 /* APParallaxHeader.xcconfig */,
+				3524E11D4C29863B5BC283DAADE33207 /* APParallaxHeader-dummy.m */,
+				CCBD5DBA5D31C0CEC3BFF45897ABC358 /* APParallaxHeader-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APParallaxHeader";
+			sourceTree = "<group>";
+		};
+		80BE98B87279468FB1E3C2C3588A05E3 /* Pods-FlashyTableviews */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0AA5907DE2A7EE2C6453F3BA1C34E /* Pods-FlashyTableviews-acknowledgements.markdown */,
+				E13A47FA3E188DE02292B604F404C12A /* Pods-FlashyTableviews-acknowledgements.plist */,
+				D0D3779CC745519C5A348E2304500A79 /* Pods-FlashyTableviews-dummy.m */,
+				2989642A90E9BB71EFED549C87B4EF6A /* Pods-FlashyTableviews-frameworks.sh */,
+				D9F482CDF0D14F8D1FB15DDA2DDE9C07 /* Pods-FlashyTableviews-resources.sh */,
+				8C55D24DC0F92A8A111C70EC294BA7F6 /* Pods-FlashyTableviews.debug.xcconfig */,
+				56187F4B3A4A8B5E6D9529F3C189AC06 /* Pods-FlashyTableviews.release.xcconfig */,
+			);
+			name = "Pods-FlashyTableviews";
+			path = "Target Support Files/Pods-FlashyTableviews";
+			sourceTree = "<group>";
+		};
+		86AD565E5F0D30EE3297D1FBE8EABE30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A55D7FDA4E214C9EC5DF67A95F742D /* FontAwesomeKit.xcconfig */,
+				DAC604ACF5BF23D43DB11C4F788FB61C /* FontAwesomeKit-dummy.m */,
+				A4BC1588821133DE6C64FF9917784BFF /* FontAwesomeKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
+			sourceTree = "<group>";
+		};
+		9880118C168553BFC1AEC05049869368 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDEC88C6EF2924E7EE6531D7F53E4D59 /* CoreText.framework */,
+				EA68CB1D3DA0E719CA76BF65D46A0E32 /* Foundation.framework */,
+				6BF9550434131391A4BB0DD0365BD207 /* QuartzCore.framework */,
+				9B6B226BCC287AD2905D591A5951BFC9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A918692812315CEF3236134C8D34B60 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				3262FF82164E4FA7140894B9D1232725 /* FAKIonIcons.h */,
+				83B6E824C4A24C3D56D7FE5D3A2E15EE /* FAKIonIcons.m */,
+				C911DE4054E931347D1EFBCB02391DD2 /* Resources */,
+			);
+			name = IonIcons;
+			sourceTree = "<group>";
+		};
+		BD4063D0A0699D91FE6AC1DF1C62B191 /* Pods-FlashyTableviewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BC47657A2B8FA44A861B44DEE926901 /* Pods-FlashyTableviewsTests-acknowledgements.markdown */,
+				9841930243C8F93960F64B5FD4F73DA1 /* Pods-FlashyTableviewsTests-acknowledgements.plist */,
+				7A803E9108FCFC966CD75ADEBC609EAD /* Pods-FlashyTableviewsTests-dummy.m */,
+				E26DB53443292692B59EFD5D924AA339 /* Pods-FlashyTableviewsTests-frameworks.sh */,
+				DB87011A2DDEA43526DDE0357A51FDFA /* Pods-FlashyTableviewsTests-resources.sh */,
+				5354A6B5780CFA0F8028DCCCEF7A00B7 /* Pods-FlashyTableviewsTests.debug.xcconfig */,
+				A2097FEEE1F2B0B672DCB6570BE1B0E5 /* Pods-FlashyTableviewsTests.release.xcconfig */,
+			);
+			name = "Pods-FlashyTableviewsTests";
+			path = "Target Support Files/Pods-FlashyTableviewsTests";
+			sourceTree = "<group>";
+		};
+		BF4D4213724D35EFDC2FC42AC5BD44CD /* FontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				4268C1463BF726053648794F987D753A /* FontAwesomeKit.h */,
+				7F062D3885E7937A2E1A21C7FE668D14 /* Core */,
+				7C5F8B6446BBE0FD8F6505C15A31685A /* FontAwesome */,
+				17DB51AE3FA54EF3FBE5B0676A60D6DC /* FoundationIcons */,
+				9A918692812315CEF3236134C8D34B60 /* IonIcons */,
+				86AD565E5F0D30EE3297D1FBE8EABE30 /* Support Files */,
+				D4EE6E7C76EEECBF93660B871A1F08E0 /* Zocial */,
+			);
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		C911DE4054E931347D1EFBCB02391DD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6CDB1A7B4AC0AEEC263D6DEA4A5812F /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF56E2D69DC62A5D0AFB5F8F6DC0D028 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14854CE4E4CCE489CEC0B9AC50FDAA0B /* zocial-regular-webfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF6C44B449EDBC8D425DC4763EC05161 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1F7484782120D560C3D2B2BE21F3B08 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D4422C7FF544B5F0B551533CFAAAA7CC /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				EE11A8682FD399839F0673116BEB48A3 /* NSMutableArray+SWUtilityButtons.h */,
+				FA8A171D6BC3981A6D54020E24D0C5E7 /* NSMutableArray+SWUtilityButtons.m */,
+				A66D27E0CA291C6A8BCFA792013ADEB7 /* SWCellScrollView.h */,
+				05C036DF083154A05438FEADB33E5451 /* SWCellScrollView.m */,
+				2870CCF0C53B7D4FCB0EAD663E550B5F /* SWLongPressGestureRecognizer.h */,
+				92D3D119B4883013C55C9EE4B2C404CB /* SWLongPressGestureRecognizer.m */,
+				64C71E9308501C41D40B79E3D11C6BCE /* SWTableViewCell.h */,
+				CD1367F13F67F8FAB030537CF19F1B52 /* SWTableViewCell.m */,
+				D63DEBAA2AAF3F0A87F0FDBDA334345C /* SWUtilityButtonTapGestureRecognizer.h */,
+				90E9F3218596F77435F60C740562A201 /* SWUtilityButtonTapGestureRecognizer.m */,
+				4BA42D17DE877E921819DE0080279E3B /* SWUtilityButtonView.h */,
+				68449B06B791A102C37C5CE205C1D8F9 /* SWUtilityButtonView.m */,
+				6A2366D9628424BDE79FCA45623B2348 /* Support Files */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
+		D4EE6E7C76EEECBF93660B871A1F08E0 /* Zocial */ = {
+			isa = PBXGroup;
+			children = (
+				33B93418DB333E81D591B5D16C0B3E00 /* FAKZocial.h */,
+				4C7A8977EF3ECB08A3DA8172811FEC41 /* FAKZocial.m */,
+				CF56E2D69DC62A5D0AFB5F8F6DC0D028 /* Resources */,
+			);
+			name = Zocial;
+			sourceTree = "<group>";
+		};
+		F7D715D47391F0CC62771E2EDF751A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CADB26C743A917DC0098AF862CA3377 /* APParallaxHeader */,
+				BF4D4213724D35EFDC2FC42AC5BD44CD /* FontAwesomeKit */,
+				D4422C7FF544B5F0B551533CFAAAA7CC /* SWTableViewCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2246978F6E6F3BFAB4515CAC29DB35B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F51FA1F8A53D43544502BA08AE0F4E6 /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				45413FB45610CE535B1229F315652776 /* SWCellScrollView.h in Headers */,
+				60E386A25A718CB600963E5A9E177EED /* SWLongPressGestureRecognizer.h in Headers */,
+				17088252AF02454E25C72936FFF0EC76 /* SWTableViewCell.h in Headers */,
+				E047770278649D68737CF43B7D5B9223 /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				029ABA9937AEAD5E3433B69BB8CA864C /* SWUtilityButtonView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D19C06001A0779EC12EA39207429B8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6970139DF66AD5EC7BAB7E72F03C3659 /* UIScrollView+APParallaxHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		926A427BA7782E3BFB0D6E7289D921C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB956B31DF117839DA0E00F87C0FF4E /* FAKFontAwesome.h in Headers */,
+				E0E29147B7D8EC40D1A4F94C2C086B68 /* FAKFoundationIcons.h in Headers */,
+				FBF89427609542D56EC6215DD09F9F64 /* FAKIcon.h in Headers */,
+				87EAD6E2EE5C9F0B8FD227FD63E7A430 /* FAKIonIcons.h in Headers */,
+				8A6287B963D51F439C0EBE2D50F9391E /* FAKZocial.h in Headers */,
+				F4FA150B34A76E334EA6E07F1C22AAD6 /* FontAwesomeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		298A29CBDFD2221C26EEA14548C77B11 /* Pods-FlashyTableviewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BBD14D64814EC6B1C5BF4F7069DBA0 /* Build configuration list for PBXNativeTarget "Pods-FlashyTableviewsTests" */;
+			buildPhases = (
+				8CF4589C02057F815914C5BD3771FC7F /* Sources */,
+				F31FA00FD165138C41143F9EE587EBB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlashyTableviewsTests";
+			productName = "Pods-FlashyTableviewsTests";
+			productReference = FF63B77B99FB64750EB3EB235C25A9A2 /* libPods-FlashyTableviewsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4383F1EDB19327B7941221D6031D1D01 /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AB6604E27D132F2D6C850C24D85F9F /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				E02806491A089D7FC5B144F011E88ADB /* Sources */,
+				023E4427AFB9185D1A3A583C410B67B5 /* Frameworks */,
+				2246978F6E6F3BFAB4515CAC29DB35B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = E6115629B9DAC5486946C8C7ED41D751 /* libSWTableViewCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4474D5CB20995049F67D8AD627EB6CE0 /* Pods-FlashyTableviewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E66CBED340FBDC9E5FE39BDE18A46AB1 /* Build configuration list for PBXNativeTarget "Pods-FlashyTableviewsUITests" */;
+			buildPhases = (
+				F313C0B535BE6B48EF83968E79C59F37 /* Sources */,
+				8C303625ABBA715CE45D05691A033926 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FlashyTableviewsUITests";
+			productName = "Pods-FlashyTableviewsUITests";
+			productReference = 7B849E4C81E886C1D66D93F4BABA3222 /* libPods-FlashyTableviewsUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5ADB83BF6F26EA20CBAEF7A0967AE0E2 /* Pods-FlashyTableviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEACDC39902026222E320292DB798E5 /* Build configuration list for PBXNativeTarget "Pods-FlashyTableviews" */;
+			buildPhases = (
+				D68F5A638FFC9B5247A86787595CD103 /* Sources */,
+				69D1E3CE502E2AC1DC2D9171591E42F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE59C11B8544AE042C4791FEC9B43619 /* PBXTargetDependency */,
+				19A0B830121A56B6923BC56BEFE5ECEC /* PBXTargetDependency */,
+				EBB98CDB60B78F77BA3B7D902C6EA0B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-FlashyTableviews";
+			productName = "Pods-FlashyTableviews";
+			productReference = 42E8E6C17DA681E121720701935D289C /* libPods-FlashyTableviews.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5DF21164C6E1DC7DEE4CA35AD0FD7B25 /* APParallaxHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C4960125F1D9E88F9010FD1D20139F /* Build configuration list for PBXNativeTarget "APParallaxHeader" */;
+			buildPhases = (
+				DBAF800D9CA0EBB27AF2E9BE4EBED372 /* Sources */,
+				873B70F19571D293E1E72B94A7199920 /* Frameworks */,
+				2D19C06001A0779EC12EA39207429B8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APParallaxHeader;
+			productName = APParallaxHeader;
+			productReference = 994CCCA2F3ECE8943DA2F7741518994A /* libAPParallaxHeader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9F1B3A3281633797F27632DF12DBFC6 /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7AF7AA01D254433277670BA389A011 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				0DD399D1164635079CA1E8777F5CFE28 /* Sources */,
+				8448DF6C6076D74248D29AA2AC4C51C6 /* Frameworks */,
+				926A427BA7782E3BFB0D6E7289D921C7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 8027A45E5AD580DED39B29ABD53E74AD /* libFontAwesomeKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D39590EE1FBAB339D1F18AE6B51DA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DF21164C6E1DC7DEE4CA35AD0FD7B25 /* APParallaxHeader */,
+				D9F1B3A3281633797F27632DF12DBFC6 /* FontAwesomeKit */,
+				5ADB83BF6F26EA20CBAEF7A0967AE0E2 /* Pods-FlashyTableviews */,
+				298A29CBDFD2221C26EEA14548C77B11 /* Pods-FlashyTableviewsTests */,
+				4474D5CB20995049F67D8AD627EB6CE0 /* Pods-FlashyTableviewsUITests */,
+				4383F1EDB19327B7941221D6031D1D01 /* SWTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD399D1164635079CA1E8777F5CFE28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15550CF5996F31B47EA5A1E33F007D9 /* FAKFontAwesome.m in Sources */,
+				443CCE401CCB360E15825DD795AE1167 /* FAKFoundationIcons.m in Sources */,
+				F3CAAA253E2293EE587412503D8934CA /* FAKIcon.m in Sources */,
+				F89880759BAB2E38B268F456CECDA73B /* FAKIonIcons.m in Sources */,
+				580F3A708B2DBD20C3BA0A3DB8900DE8 /* FAKZocial.m in Sources */,
+				CDCC5F8C49D18065CE3610E7E8884FD5 /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF4589C02057F815914C5BD3771FC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9FF2442E70FFD38BE49F67C3CBA4E45 /* Pods-FlashyTableviewsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D68F5A638FFC9B5247A86787595CD103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2236143B35EDD9EFB5EF1E053BF55B11 /* Pods-FlashyTableviews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAF800D9CA0EBB27AF2E9BE4EBED372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480858A7BA9ECA2EE7A5107D34F7183 /* APParallaxHeader-dummy.m in Sources */,
+				E9A6CAD308EC7F78F474E74679454206 /* UIScrollView+APParallaxHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02806491A089D7FC5B144F011E88ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F4D28C586CF21CFB8AB2F977EB6319 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				1F9352E50246B4183CDAA0184C8C946F /* SWCellScrollView.m in Sources */,
+				DDF86800B4A86E6855D38411A6C6CA3B /* SWLongPressGestureRecognizer.m in Sources */,
+				43BBC6D670E34431C463DD8AB295957B /* SWTableViewCell-dummy.m in Sources */,
+				5844ACFF80AB4A23C599F66D5700A640 /* SWTableViewCell.m in Sources */,
+				BD31EC9C61658051E6245972A78B0DA4 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				67A26F6ADA2E47D4F2D5256EEFDC5C7D /* SWUtilityButtonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F313C0B535BE6B48EF83968E79C59F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768F7F1D65DACA52BB55EAA38A13FD98 /* Pods-FlashyTableviewsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19A0B830121A56B6923BC56BEFE5ECEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = D9F1B3A3281633797F27632DF12DBFC6 /* FontAwesomeKit */;
+			targetProxy = 4922A24C4806EFB0915631A4D804013B /* PBXContainerItemProxy */;
+		};
+		EBB98CDB60B78F77BA3B7D902C6EA0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = 4383F1EDB19327B7941221D6031D1D01 /* SWTableViewCell */;
+			targetProxy = D89D6A271B46388BB1567696A723C393 /* PBXContainerItemProxy */;
+		};
+		FE59C11B8544AE042C4791FEC9B43619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APParallaxHeader;
+			target = 5DF21164C6E1DC7DEE4CA35AD0FD7B25 /* APParallaxHeader */;
+			targetProxy = 13D57945B6B17F6883603F97939695B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176C72BE9CFC4448BF48AF945E4AB0A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C36E98615E665C6F4510B10CA6ED11 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FE2AAE09AAED05F4F6D08FB0A86CC3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56187F4B3A4A8B5E6D9529F3C189AC06 /* Pods-FlashyTableviews.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47CA83DAADE60A651B78EC3D31DBD9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EBA2EE356A8859592F713317BFC978 /* APParallaxHeader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APParallaxHeader/APParallaxHeader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48816184AAE73C1621A3BF1E5F22E441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2097FEEE1F2B0B672DCB6570BE1B0E5 /* Pods-FlashyTableviewsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		76865F69698688BF67ECD08FACFC9F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A55D7FDA4E214C9EC5DF67A95F742D /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8AD36F64CA5A2879FFB9E1FD85E8E83A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C36E98615E665C6F4510B10CA6ED11 /* SWTableViewCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		995497E32907CAA4B1D0F97DB3972EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A55D7FDA4E214C9EC5DF67A95F742D /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9AB8D542D06A650AAFAEC5DCBAFB8CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37F6BDCC0CC66E4FF45C500FA764431 /* Pods-FlashyTableviewsUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A8CE7B6DF7C9C6B0A9CB88A16ABD08DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738CE090496FE87519346D87D700F8CF /* Pods-FlashyTableviewsUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DC8FFAD4729018DB882C2CBC7F985668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EBA2EE356A8859592F713317BFC978 /* APParallaxHeader.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/APParallaxHeader/APParallaxHeader-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2FDB61E4D949DDC08C6389CEE466F9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C55D24DC0F92A8A111C70EC294BA7F6 /* Pods-FlashyTableviews.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E48C8529F097042B3CCA018D4768382F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5354A6B5780CFA0F8028DCCCEF7A00B7 /* Pods-FlashyTableviewsTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BBD14D64814EC6B1C5BF4F7069DBA0 /* Build configuration list for PBXNativeTarget "Pods-FlashyTableviewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48C8529F097042B3CCA018D4768382F /* Debug */,
+				48816184AAE73C1621A3BF1E5F22E441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C4960125F1D9E88F9010FD1D20139F /* Build configuration list for PBXNativeTarget "APParallaxHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47CA83DAADE60A651B78EC3D31DBD9C4 /* Debug */,
+				DC8FFAD4729018DB882C2CBC7F985668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E66CBED340FBDC9E5FE39BDE18A46AB1 /* Build configuration list for PBXNativeTarget "Pods-FlashyTableviewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AB8D542D06A650AAFAEC5DCBAFB8CC4 /* Debug */,
+				A8CE7B6DF7C9C6B0A9CB88A16ABD08DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEACDC39902026222E320292DB798E5 /* Build configuration list for PBXNativeTarget "Pods-FlashyTableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FDB61E4D949DDC08C6389CEE466F9B /* Debug */,
+				3FE2AAE09AAED05F4F6D08FB0A86CC3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AB6604E27D132F2D6C850C24D85F9F /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD36F64CA5A2879FFB9E1FD85E8E83A /* Debug */,
+				176C72BE9CFC4448BF48AF945E4AB0A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7AF7AA01D254433277670BA389A011 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995497E32907CAA4B1D0F97DB3972EBF /* Debug */,
+				76865F69698688BF67ECD08FACFC9F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
